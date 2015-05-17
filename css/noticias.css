@@ -1,0 +1,23 @@
+.div_noticias{
+        border:1px solid #dddddd;
+        height:140px;
+        width:100%;
+        margin-bottom:5px;
+}       
+
+.lista_noticias{
+        height:120px;
+        overflow:auto;
+}
+
+.lista_noticias li{
+        padding-bottom:10px;
+}
+
+.lista_noticias li.white{
+        background-color:"#ffffff";
+}
+
+.lista_noticias li.cinza{
+        background-color:"#dddddd";
+}

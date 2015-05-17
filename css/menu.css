@@ -1,0 +1,10 @@
+#sma_go_to {
+                position: absolute;
+                top:10px;
+                left:10px;
+                z-index: 10;
+                background-color: #cccccc;
+                border:1px solid #bbbbbb;
+                border-radius: 5px;
+                padding: 5px;
+        }
