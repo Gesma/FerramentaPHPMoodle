@@ -1,7 +1,9 @@
 <?php
 
-        include_once "/var/www/moodle/config.php";
+	include_once "/var/www/moodle/config.php";
 
-        if(!isloggedin()){
-                header('Location: ../index.php');
-        }
+	if(!isloggedin()){
+		header('Location: ../index.php');
+	}
+
+?>

@@ -4,3 +4,5 @@ $strings = array(
 'save'=>"Salvar",
 'cancel'=>"Cancelar"
 );
+
+?>

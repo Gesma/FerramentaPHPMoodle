@@ -1,17 +1,16 @@
-
 <?php
 
-        $id = $_REQUEST['id'];
+	$id = $_REQUEST['id'];
 
-        include_once "../database.php";
+	include_once "../database.php";
 
-        $db = new Database();
+	$db = new Database();
 
-        $sql = "DELETE FROM ag_mensagens WHERE id = $id";
+	$sql = "DELETE FROM ag_mensagens WHERE id = $id";
 
-        $res = $db->exec($sql);
+	$res = $db->exec($sql);
 
-        if($res) echo 0;
-        else echo 1;
+	if($res) echo 0;
+	else echo 1;
 
 ?>
